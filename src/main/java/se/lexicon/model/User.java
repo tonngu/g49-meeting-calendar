@@ -35,7 +35,11 @@ public class User {
     }
 
     public String userInfo() {
-        return "username " + username + "password" + password;
+        return "username: " + username + " password: " + password;
+    }
+
+    public String getPassword() {
+        return password;
     }
 
     private String generateRandomPassword() {
